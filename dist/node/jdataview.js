@@ -1,5 +1,5 @@
 !function(factory) {
-    var global = this;
+    var global = globalThis;
     module.exports = factory(global);
 }(function(global) {
     "use strict";
