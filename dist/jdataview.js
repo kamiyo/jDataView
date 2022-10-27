@@ -1,5 +1,5 @@
 (function (factory) {
-	var global = this;
+	var global = globalThis;
 
 	if (NODE || typeof exports === 'object') {
 		module.exports = factory(global);
